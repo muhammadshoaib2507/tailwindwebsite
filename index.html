@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./dist/output.css">
+
+</head>
+
+<body>
+    <!-- Top bar Section -->
+    <nav class="container m-auto flex justify-around items-center bg-blue-600 text-white p-4">
+        <img src="/images/logo.png" class="max-h-[60px]" alt="logo">
+        <div class="hidden md:flex space-x-6">
+            <a href="#">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Service</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+        <!-- Hamburder icon -->
+        <button id="menu-btn" class="block hamburger md:hidden focus:outline-none">
+            <span class="hamburger-top"></span>
+            <span class="hamburger-middle"></span>
+            <span class="hamburger-bottom"></span>
+
+        </button>
+
+        <!-- mobile menu -->
+        <div class="md:hidden">
+            <div id="menu" class="absolute flex-col item-center hidden self-end p-8 mt-10 space-y-6
+             text-black bg-white font-semibold
+             sm:w-auto sm:self-center left-6 drop-shadow-md">
+                <a href="#">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Service</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+
+    </nav>
+
+
+    <!-- First Section -->
+    <main>
+        <div class="container m-auto flex flex-col-reverse p-7 justify-center items-center
+         bg-slate-100 md:flex-row md:justify-around md:p-24">
+            <!-- First section div 1 -->
+            <div class="basis-auto w-full mt-7 md:basis-3/5">
+                <h4 class="mb-1">Up to 50% Off</h4>
+                <h1 class="text-4xl font-bold text-blue-600">Pakistan No 1 Digital Marketing Service</h1>
+                <p class="my-7">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Ea perspiciatis aperiam in recusandae optio corporis ab
+                    omnis illum laborum, amet distinctio explicabo numquam cupiditate
+                    corrupti quos labore? Molestiae, nobis officia?</p>
+
+                <a href="" class="bg-blue-600 text-white border-2 rounded-full px-6 py-2 mt-6 hover:animate-pulse">Price
+                    Plan</a>
+                <a href="" class="border-2 border-blue-500 rounded-full px-6 py-2 mt-6">Contact Us</a>
+
+            </div>
+
+            <!-- First section div 2 -->
+            <div class="basis-auto w-full mb-8 md:px-14 md:basis-2/5">
+                <img src="/images/logo.png" alt="">
+            </div>
+
+        </div>
+
+        <!-- About Section -->
+
+        <div id="about" class="container m-auto">
+            <h2 class="text-center text-4xl font-bold my-14">About</h2>
+
+            <!-- About section inner div -->
+            <div class="container flex flex-col p-10 justify-evenly items-center md:flex-row">
+
+                <!-- Image -->
+                <div class="basis-auto mb-8 md:px-14 md:basis-3/5">
+                    <img src="/images/person_image.jpg" class="w-[350px] h-[350px] hover:animate-spin"
+                        alt="person Image">
+                </div>
+
+                <!-- About Info-->
+                <div class="basis-3/4 mb-4">
+                    <h3 class="text-xl font-semibold">Hi, I am Muhammad Ali</h3>
+                    <p class="my-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, voluptatibus
+                        recusandae? Quam,
+                        commodi laboriosam! Odio repellat dolor esse eos dolorum autem nulla. Ab debitis cumque qui
+                        autem cum expedita laboriosam.
+                        <br>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, voluptatibus recusandae? Quam,
+                        commodi laboriosam! Odio repellat dolor esse eos dolorum autem nulla. Ab debitis cumque qui
+                        autem cum expedita laboriosam.
+                        <br>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, voluptatibus
+                        recusandae? Quam,
+                        commodi laboriosam! Odio repellat dolor esse eos dolorum autem nulla. Ab debitis cumque qui
+                        autem cum expedita laboriosam.
+                    </p>
+
+                    <a href="" class="bg-blue-600 text-white border-2 rounded-full px-6 py-2">Download CV</a>
+
+                </div>
+
+            </div>
+        </div>
+
+        <!-- section 3 services -->
+
+        <div id="services" class="container m-auto bg-slate-100 py-14">
+            <h2 class="text-center text-4xl font-bold">Services</h2>
+
+            <!-- Inner services -->
+            <div class="container m-auto flex flex-col p-10 justify-center items-center md:flex-row">
+
+                <!-- First item of services -->
+                <div class="basis-auto w-full bg-blue-400 drop-shadow-md rounded-md p-10 m-2 md:basis-2/6 md:m-6">
+                    <img src="images/full-stack.png" class="max-w-[140px]" alt="">
+                    <h3 class="text-lg font-semibold my-4">Website Development</h3>
+                    <p class="my-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum nam vitae ipsa
+                        quasi optio
+                        aperiam tempore, id excepturi dolore unde.</p>
+                    <a href="" class="border-2 border-white rounded-full px-6 py-2 hover:animate-ping">More info..</a>
+                </div>
+
+                <!-- 2nd item of services -->
+                <div class="basis-auto w-full bg-blue-400 drop-shadow-md rounded-md p-10 m-2 md:basis-2/6 md:m-6">
+                    <img src="images/front-end.png" class="max-w-[140px]" alt="">
+                    <h3 class="text-lg font-semibold my-4">Front-End Development</h3>
+                    <p class="my-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum nam vitae ipsa
+                        quasi optio
+                        aperiam tempore, id excepturi dolore unde.</p>
+                    <a href="" class="border-2 border-white rounded-full px-6 py-2 hover:animate-bounce">More info..</a>
+                </div>
+
+                <!-- 3rd item of services -->
+                <div class="basis-auto w-full bg-blue-400 drop-shadow-md rounded-md p-10 m-2 md:basis-2/6 md:m-6">
+                    <img src="images/seo.png" class="max-w-[140px]" alt="">
+                    <h3 class="text-lg font-semibold my-4">Search Engine Optimization</h3>
+                    <p class="my-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum nam vitae ipsa
+                        quasi optio
+                        aperiam tempore, id excepturi dolore unde.</p>
+                    <a href="" class="border-2 border-white rounded-full px-6 py-2 hover:animate-pulse">More info..</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Portfolio Section -->
+        <div id="portfolio" class="container m-auto py-14">
+            <h2 class="text-center text-4xl font-bold">Portfolio</h2>
+
+            <!-- Image grid -->
+            <div class="grid gap-14 p-14 md:grid-cols-2 lg:grid-cols-3">
+                <img src="images/front-end.png" class="w-full border-2 p-12 hover:animate-bounce" alt="Image 1" />
+                <img src="images/full-stack.png" class="w-full border-2 p-12 hover:animate-bounce" alt="Image 2">
+                <img src="images/seo.png" class="w-full border-2 p-12 hover:animate-bounce" alt="Image 3">
+                <img src="images/full-stack.png" class="w-full border-2 p-12 hover:animate-bounce" alt="Image 2">
+                <img src="images/front-end.png" class="w-full border-2 p-12 hover:animate-bounce" alt="Image 1" />
+                <img src="images/seo.png" class="w-full border-2 p-12 hover:animate-bounce" alt="Image 3">
+            </div>
+
+        </div>
+
+        <!-- Contact us section -->
+        <div id="contact" class="container m-auto py-14 bg-slate-100">
+            <h2 class="text-center text-4xl font-bold">Contact Us</h2>
+            <ul class="p-14">
+                <li class="text-sm font-semibold text-center md:text-xl">&#9990; +92-300-1234567</li>
+                <li class="text-sm font-semibold text-center md:text-xl">&#9993; support.abcwebsite@mail.com</li>
+                <li class="text-sm font-semibold text-center md:text-xl">&#10159; Arfa Tower, Lahore, Punjab, Pakistan
+                </li>
+            </ul>
+        </div>
+
+        <div class="container m-auto py-5 bg-blue-600">
+            <p class="text-white text-center text-md">All copyright&#169; reserved by MSM</p>
+        </div>
+
+    </main>
+
+</body>
+
+<script src="scriptfile.js"></script>
+
+</html>
